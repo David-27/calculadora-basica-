@@ -18,6 +18,3 @@ Limpeza de display (C/AC).
 Suporte a números decimais.
 
 Interface responsiva para dispositivos móveis.
-
-Opção 3: Focada em Aprendizado
-Projeto de portfólio para demonstrar o uso de Event Listeners e funções assíncronas/lógicas em JavaScript. Focado em código limpo e interface intuitiva.
