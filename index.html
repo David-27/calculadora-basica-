@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora Simples </title>
+  <style>
+    
+  </style>
+</head>
+<body>
+    <h1>CALCULADORA CLÉLIO</h1>
+
+  <div class="calculator">
+    <!--- <p id="display"></p>  -->
+    
+    <input type="text" class="display" id="display">
+    
+    <div class="buttons">
+      <button onclick="adicionarNumber('7')">7</button>
+      <button onclick="adicionarNumber('8')">8</button>
+      <button onclick="adicionarNumber('9')">9</button>
+      <button onclick="adicionarOperator('/')">/</button>
+      <button onclick="adicionarNumber('4')">4</button>
+      <button onclick="adicionarNumber('5')">5</button>
+      <button onclick="adicionarNumber('6')">6</button>
+      <button onclick="adicionarOperator('*')">*</button>
+      <button onclick="adicionarNumber('1')">1</button>
+      <button onclick="adicionarNumber('2')">2</button>
+      <button onclick="adicionarNumber('3')">3</button>
+      <button onclick="adicionarOperator('-')">-</button>
+      <button onclick="adicionarNumber('0')">0</button>
+      <button onclick="adicionarNumber('.')">.</button>
+      <button class="equal" onclick="calculate()">=</button>
+      <button onclick="adicionarOperator('+')">+</button>
+      <button class="clear" onclick="clearDisplay()">C</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
